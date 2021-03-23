@@ -1,3 +1,16 @@
+################################################################################
+################################################################################
+########                                                                ########
+########   Python - Firebase - Flask Login/Register App                 ########
+########   Author: Sarina Mousavi                                      ########
+########   Last updated on: 11/27/2019                                   ########
+########                                                                ########
+########   P.S. This is my recent ever github project, so I              ########
+########   would love to hear your feedback :           ########
+########                                                                ########
+################################################################################
+################################################################################
+
 import pyrebase
 from flask import Flask, flash, redirect, render_template, request, session, abort, url_for
 
@@ -5,10 +18,10 @@ app = Flask(__name__)       #Initialze flask constructor
 
 #Add your own details
 config = {
-  "apiKey": "AIzaSyC46KO3DW2UVfDwemrO_j34tQiLYSPfuQ4",
-  "authDomain": "newcomersapp-1230.firebaseapp.com",
-  "databaseURL": "",
-  "storageBucket": "newcomersapp-1230.appspot.com"
+  "apiKey": "AIzaSyD1j7DiJWm9H-__ETpTvWPUI5YXJHHY3Us",
+  "authDomain": "covidapp-7cb99.firebaseapp.com",
+  "databaseURL": "https://covidapp-7cb99-default-rtdb.firebaseio.com/",
+  "storageBucket": "covidapp-7cb99.appspot.com"
 }
 
 #initialize firebase
@@ -48,6 +61,10 @@ def room():
 @app.route("/update")
 def update():
     return render_template("update.html")
+    
+@app.route("/about")
+def about():
+    return render_template("about.html")    
 
 #Welcome page
 @app.route("/welcome")
@@ -122,4 +139,3 @@ def register():
 
 if __name__ == "__main__":
     app.run()
-
