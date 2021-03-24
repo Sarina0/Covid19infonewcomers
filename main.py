@@ -5,10 +5,14 @@ app = Flask(__name__)       #Initialze flask constructor
 
 #Add your own details
 config = {
-  "apiKey": "AIzaSyC46KO3DW2UVfDwemrO_j34tQiLYSPfuQ4",
-  "authDomain": "newcomersapp-1230.firebaseapp.com",
-  "databaseURL": "",
-  "storageBucket": "newcomersapp-1230.appspot.com"
+  #"apiKey": "AIzaSyC46KO3DW2UVfDwemrO_j34tQiLYSPfuQ4",
+  #"authDomain": "newcomersapp-1230.firebaseapp.com",
+  #"databaseURL": "",
+  #"storageBucket": "newcomersapp-1230.appspot.com"
+    "apiKey": "AIzaSyD1j7DiJWm9H-__ETpTvWPUI5YXJHHY3Us",
+  "authDomain": "covidapp-7cb99.firebaseapp.com",
+  "databaseURL": "https://covidapp-7cb99-default-rtdb.firebaseio.com/",
+  "storageBucket": "covidapp-7cb99.appspot.com"
 }
 
 #initialize firebase
