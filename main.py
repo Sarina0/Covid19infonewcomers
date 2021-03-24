@@ -53,6 +53,10 @@ def room():
 def update():
     return render_template("update.html")
 
+@app.route("/about")
+def about():
+    return render_template("about.html")  
+
 #Welcome page
 @app.route("/welcome")
 def welcome():
