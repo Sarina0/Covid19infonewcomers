@@ -26,7 +26,7 @@ person = {"is_logged_in": False, "name": "", "email": "", "uid": ""}
 #Home(landingpage)
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("home.html")
 
 #Login
 @app.route("/login")
