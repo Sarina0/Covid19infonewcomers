@@ -334,3 +334,11 @@ a.body-btn-link[class], a.product-btn-link[class] {
     border-radius: 20px;
     text-decoration: none;
  }
+
+
+.copyright{
+    color: #6cdada;
+    font-size: 0.75rem;
+    
+    }
+    
