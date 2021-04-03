@@ -324,3 +324,13 @@ a.body-btn-link[class], a.product-btn-link[class] {
         padding-right: 2.5rem;
     }
 }
+
+
+.btn {
+    border: solid 1px;
+    background: #6ac9ee;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
